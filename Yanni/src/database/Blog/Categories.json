@@ -44,7 +44,7 @@
       "systemField": false,
       "referencingFieldKey": "categories",
       "type": "multi-reference",
-      "index": 3
+      "index": 4
     },
     "_id": {
       "displayName": "ID",
@@ -82,7 +82,7 @@
       "isDeleted": false,
       "systemField": true,
       "type": "url",
-      "index": 4
+      "index": 3
     }
   },
   "displayField": "label",

@@ -9,7 +9,7 @@ type PageElementsMap = {
   "#footer1": $w.Footer;
   "#line3": $w.HiddenCollapsedElement;
   "#text12": $w.Text;
-  "#wixForms1": $w.Node;
+  "#wixForms1": {onWixFormSubmitted(eventHandler: (event: any) => void); onWixFormSubmittedError(eventHandler: (event: any) => void); onWixFormSubmit(eventHandler: (event: any) => void);} & $w.Node;
   "#form2": $w.Form;
   "#input5": $w.TextInput;
   "#input4": $w.TextInput;
