@@ -1,0 +1,108 @@
+{
+  "displayName": "Contact",
+  "plugins": {},
+  "permissions": {
+    "insert": "anyone",
+    "update": "admin",
+    "remove": "admin",
+    "read": "admin"
+  },
+  "version": 1,
+  "allowedOperations": [
+    "count",
+    "get",
+    "find",
+    "remove",
+    "insert",
+    "update"
+  ],
+  "id": "contactForm",
+  "isDeleted": false,
+  "ownerAppId": null,
+  "displayNamespace": null,
+  "fields": {
+    "name": {
+      "plugin": "14ce1214-b278-a7e4-1373-00cebd1bef7c",
+      "displayName": "Name",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 5
+    },
+    "submissionTime": {
+      "plugin": "14ce1214-b278-a7e4-1373-00cebd1bef7c",
+      "displayName": "Submission Time",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "datetime",
+      "index": 4
+    },
+    "subject": {
+      "plugin": "14ce1214-b278-a7e4-1373-00cebd1bef7c",
+      "displayName": "Subject",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 7
+    },
+    "email": {
+      "plugin": "14ce1214-b278-a7e4-1373-00cebd1bef7c",
+      "displayName": "Email",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 6
+    },
+    "_id": {
+      "displayName": "ID",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 0
+    },
+    "_owner": {
+      "displayName": "Owner",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 1
+    },
+    "_createdDate": {
+      "displayName": "Created Date",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "datetime",
+      "index": 2
+    },
+    "_updatedDate": {
+      "displayName": "Updated Date",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": true,
+      "type": "datetime",
+      "index": 3
+    },
+    "message": {
+      "plugin": "14ce1214-b278-a7e4-1373-00cebd1bef7c",
+      "displayName": "Message",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 8
+    }
+  },
+  "displayField": "title",
+  "storage": "docstore",
+  "ttl": null,
+  "translatable": false,
+  "defaultSort": null,
+  "namespace": null
+}

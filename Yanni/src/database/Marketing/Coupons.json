@@ -1,0 +1,287 @@
+{
+  "displayName": "Coupons",
+  "plugins": {},
+  "permissions": {
+    "insert": "admin",
+    "update": "admin",
+    "remove": "admin",
+    "read": "admin"
+  },
+  "maxPageSize": 100,
+  "version": 0,
+  "allowedOperations": [
+    "count",
+    "get",
+    "find"
+  ],
+  "id": "Marketing/Coupons",
+  "isDeleted": false,
+  "ownerAppId": "14d7032a-0a65-5270-cca7-30f599708fed",
+  "displayNamespace": "Marketing",
+  "fields": {
+    "freeShipping": {
+      "displayName": "Free Shipping",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "boolean",
+      "index": 19
+    },
+    "name": {
+      "displayName": "Name",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "hasSome",
+        "contains",
+        "startsWith"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 1
+    },
+    "startTime": {
+      "displayName": "Start Time",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "datetime",
+      "index": 3
+    },
+    "expirationTime": {
+      "displayName": "Expiration Time",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "datetime",
+      "index": 4
+    },
+    "numberOfUsages": {
+      "displayName": "Number Of Usages",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "gt",
+        "gte",
+        "lt",
+        "lte"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 14
+    },
+    "limitedToOneItem": {
+      "displayName": "Limited To One Item",
+      "sortable": false,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "boolean",
+      "index": 8
+    },
+    "expired": {
+      "displayName": "Expired",
+      "sortable": false,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "boolean",
+      "index": 15
+    },
+    "percentOffRate": {
+      "displayName": "Percent Off Rate",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 21
+    },
+    "limitPerCustomer": {
+      "displayName": "Limit Per Customer",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "gt",
+        "gte",
+        "lt",
+        "lte"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 6
+    },
+    "_id": {
+      "displayName": "ID",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "hasSome",
+        "contains",
+        "startsWith",
+        "urlized"
+      ],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 0
+    },
+    "scope": {
+      "displayName": "Scope",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "object",
+      "index": 11
+    },
+    "buyXGetY": {
+      "displayName": "Buy X Get Y",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "object",
+      "index": 17
+    },
+    "displayData": {
+      "displayName": "Display Data",
+      "sortable": false,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "object",
+      "index": 16
+    },
+    "moneyOffAmount": {
+      "displayName": "Money Off Amount",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 20
+    },
+    "usageLimit": {
+      "displayName": "Usage Limit",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "gt",
+        "gte",
+        "lt",
+        "lte"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 5
+    },
+    "minimumSubtotal": {
+      "displayName": "Minimum Subtotal",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "gt",
+        "gte",
+        "lt",
+        "lte"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 10
+    },
+    "code": {
+      "displayName": "Code",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "hasSome",
+        "contains",
+        "startsWith"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 2
+    },
+    "_dateCreated": {
+      "displayName": "Date Created",
+      "sortable": true,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "datetime",
+      "index": 13
+    },
+    "fixedPriceAmount": {
+      "displayName": "Fixed Price Amount",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 18
+    },
+    "appliesToSubscriptions": {
+      "displayName": "Applies To Subscriptions",
+      "sortable": false,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "boolean",
+      "index": 7
+    },
+    "type": {
+      "displayName": "Type",
+      "sortable": false,
+      "queryOperators": [
+        "eq",
+        "ne"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 12
+    },
+    "appId": {
+      "displayName": "App Id",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "hasSome",
+        "contains",
+        "startsWith"
+      ],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 22
+    },
+    "active": {
+      "displayName": "Active",
+      "sortable": false,
+      "isDeleted": false,
+      "systemField": false,
+      "type": "boolean",
+      "index": 9
+    }
+  },
+  "displayField": "name",
+  "storage": "driver",
+  "ttl": null,
+  "translatable": false,
+  "defaultSort": {
+    "fieldName": "_dateCreated",
+    "direction": "desc"
+  },
+  "namespace": "Marketing"
+}
